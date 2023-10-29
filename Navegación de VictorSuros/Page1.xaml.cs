@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Navegación_de_VictorSuros.Imagenes
+namespace Navegación_de_VictorSuros
 {
     /// <summary>
     /// Lógica de interacción para Page1.xaml

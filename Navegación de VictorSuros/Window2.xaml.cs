@@ -23,5 +23,19 @@ namespace Navegación_de_VictorSuros
         {
             InitializeComponent();
         }
+
+        private void MainWindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow AbrirMainWindow = new MainWindow();
+            this.Close();
+            AbrirMainWindow.Show();
+        }
+
+        private void Boton2_AbrirPagina(object sender, RoutedEventArgs e)
+        {
+
+            MyFrame.NavigationService.Navigate(new Page1());
+
+        }
     }
 }

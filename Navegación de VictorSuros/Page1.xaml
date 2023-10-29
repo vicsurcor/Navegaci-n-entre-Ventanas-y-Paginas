@@ -18,7 +18,7 @@
                 <GradientStop Color="#06665E" Offset="1"/>
 
             </LinearGradientBrush>
-            
+
         </Grid.Background>
 
         <TextBlock Text="PAGINA 1" Foreground="White" FontSize="40" FontWeight="Medium"
@@ -26,8 +26,8 @@
 
         <Image HorizontalAlignment="Left" Height="110" Margin="341,132,0,0" 
                VerticalAlignment="Top" Width="189" Source="E:\Masanz\DEIN\Navegacion entre ventanas y paginas\Navegación entre Ventanas y Paginas\Navegación de VictorSuros\Imagenes\WPF.png"/>
-         
-        
+
+
 
     </Grid>
 </Page>
