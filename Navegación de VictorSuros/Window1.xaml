@@ -1,0 +1,72 @@
+﻿<Window x:Class="Navegación_de_VictorSuros.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navegación_de_VictorSuros"
+        mc:Ignorable="d"
+        Title="Window1" Height="550" Width="800"
+        WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Background="Transparent" AllowsTransparency="True">
+    <Grid>
+
+        <Border CornerRadius="12">
+
+            <Border.Background>
+
+                <ImageBrush ImageSource="E:\Masanz\DEIN\Navegacion entre ventanas y paginas\Navegación entre Ventanas y Paginas\Navegación de VictorSuros\Imagenes\back-image.jpg"
+                     Stretch="None"/>
+
+            </Border.Background>
+
+
+            <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
+
+                <Border.BorderBrush>
+
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+                        <GradientStop Color="#462AD8" Offset="0"/>
+                        <GradientStop Color="#DA34AE" Offset="0.75"/>
+                        <GradientStop Color="#8A16C1" Offset="1"/>
+
+                    </LinearGradientBrush>
+
+
+                </Border.BorderBrush>
+
+
+                <Border.Background>
+
+                    <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
+
+                        <GradientStop Color="#060531" Offset="0"/>
+                        <GradientStop Color="#1B1448" Offset="1"/>
+
+
+                    </LinearGradientBrush>
+
+
+                </Border.Background>
+
+
+            </Border>
+
+
+        </Border>
+
+        <Grid>
+
+            <TextBlock Text="VENTANA 1" Foreground="White" FontSize="40" FontWeight="Medium"
+                        FontFamily="Montserrat" HorizontalAlignment="Center" Margin="0,70,0,0"/>
+
+
+            <Button Name="Menu_Principal" Content="Volver al Menú Principal" Height="150"
+        Width="270" Background="Violet" Foreground="DarkViolet"
+        FontSize="20" FontFamily="Montserrat" Cursor="Hand" Click="MainWindow"/>
+
+
+        </Grid>
+
+    </Grid>
+</Window>
