@@ -14,7 +14,7 @@
 
             <Border.Background>
 
-                <ImageBrush ImageSource="E:\Masanz\DEIN\Navegacion entre ventanas y paginas\Navegación entre Ventanas y Paginas\Navegación de VictorSuros\Imagenes\back-image.jpg"
+                <ImageBrush ImageSource="Imagenes\back-image.jpg"
                      Stretch="None"/>
 
             </Border.Background>
