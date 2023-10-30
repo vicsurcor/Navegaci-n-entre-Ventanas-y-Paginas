@@ -24,8 +24,8 @@
         <TextBlock Text="PAGINA 1" Foreground="White" FontSize="40" FontWeight="Medium"
                    FontFamily="Montserrat" HorizontalAlignment="Center" Margin="0,70,0,0"/>
 
-        <Image HorizontalAlignment="Left" Height="110" Margin="341,132,0,0" 
-               VerticalAlignment="Top" Width="189" Source="E:\Masanz\DEIN\Navegacion entre ventanas y paginas\Navegación entre Ventanas y Paginas\Navegación de VictorSuros\Imagenes\WPF.png"/>
+        <Image HorizontalAlignment="Center" Height="110" Margin="0,132,0,0" 
+               VerticalAlignment="Top" Width="189" Source="/Imagenes/WPF.png"/>
 
 
 
